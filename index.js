@@ -6,6 +6,6 @@ function findMatching(drivers, name) {
   });
 }
 
-fuzzyMatch()
+function fuzzyMatch()
 
-matchName()
+function matchName()
