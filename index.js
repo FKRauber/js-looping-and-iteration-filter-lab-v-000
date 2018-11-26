@@ -7,8 +7,9 @@ function findMatching(drivers, name) {
 }
 
 function fuzzyMatch(drivers, letters){
+  let lengthOfName = letters.length;
   return drivers.filter(function (driverName){
-    return driverName
+    return driverName.slice(0, lengthOfName) === letters;
   });
 }
 
