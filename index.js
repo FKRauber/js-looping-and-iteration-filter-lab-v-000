@@ -6,6 +6,10 @@ function findMatching(drivers, name) {
   });
 }
 
-function fuzzyMatch(){}
+function fuzzyMatch(drivers, name){
+  return drivers.filter(function (driverName){
+    return driverName
+  });
+}
 
 function matchName(){}
